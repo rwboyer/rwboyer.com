@@ -6691,30 +6691,36 @@ body {
   position: relative;
   background-attachment: fixed;
   background-image: url(/images/background.jpg);
+  background-size: cover;
+  text-shadow: rgba(0, 0, 0, 0.5);
 }
 
-/* line 56, ../sass/app.scss */
+/* line 58, ../sass/app.scss */
 #header {
   position: fixed;
 }
-/* line 58, ../sass/app.scss */
+/* line 60, ../sass/app.scss */
 #header h6 {
   text-align: right;
 }
 
-/* line 63, ../sass/app.scss */
+/* line 65, ../sass/app.scss */
 #wrapper {
-  min-height: 550px;
+  min-height: 700px;
   z-index: 100;
 }
 
-/* line 68, ../sass/app.scss */
+/* line 70, ../sass/app.scss */
 #top-row {
-  padding-top: 5em;
+  padding-top: 10em;
 }
 
-/* line 72, ../sass/app.scss */
+/* line 74, ../sass/app.scss */
 #footer {
   border-top-style: solid;
   border-top-width: 1px;
+}
+/* line 77, ../sass/app.scss */
+#footer p {
+  color: #777;
 }
