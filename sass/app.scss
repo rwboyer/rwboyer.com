@@ -48,15 +48,18 @@
 
 body{
   color: rgba(255,255,255,0.5);
-  position: relative;
-  background-attachment: fixed;
-  background-image: url(/images/background.jpg);
-  background-size: cover;
   text-shadow: rgba(0,0,0, 0.5);
 }
 
-.new-image body{
-  background-image: url(/images/background2.jpg);  
+#fancy-stuff{
+  position: relative;
+  background-attachment: fixed;
+  background-image: url(/images/background.jpg);
+  background-size: cover;  
+}
+
+#fancy-stuff.other{
+  background-image: url(/images/background2.jpg);    
 }
 
 #header{

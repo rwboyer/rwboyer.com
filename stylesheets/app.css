@@ -6688,44 +6688,48 @@ a.th {
 /* line 49, ../sass/app.scss */
 body {
   color: rgba(255, 255, 255, 0.5);
+  text-shadow: rgba(0, 0, 0, 0.5);
+}
+
+/* line 54, ../sass/app.scss */
+#fancy-stuff {
   position: relative;
   background-attachment: fixed;
   background-image: url(/images/background.jpg);
   background-size: cover;
-  text-shadow: rgba(0, 0, 0, 0.5);
 }
 
-/* line 58, ../sass/app.scss */
-.new-image body {
+/* line 61, ../sass/app.scss */
+#fancy-stuff.other {
   background-image: url(/images/background2.jpg);
 }
 
-/* line 62, ../sass/app.scss */
+/* line 65, ../sass/app.scss */
 #header {
   position: fixed;
 }
-/* line 64, ../sass/app.scss */
+/* line 67, ../sass/app.scss */
 #header h6 {
   text-align: right;
 }
 
-/* line 69, ../sass/app.scss */
+/* line 72, ../sass/app.scss */
 #wrapper {
   min-height: 700px;
   z-index: 100;
 }
 
-/* line 74, ../sass/app.scss */
+/* line 77, ../sass/app.scss */
 #top-row {
   padding-top: 10em;
 }
 
-/* line 78, ../sass/app.scss */
+/* line 81, ../sass/app.scss */
 #footer {
   border-top-style: solid;
   border-top-width: 1px;
 }
-/* line 81, ../sass/app.scss */
+/* line 84, ../sass/app.scss */
 #footer p {
   color: #777;
 }
