@@ -6696,31 +6696,36 @@ body {
 }
 
 /* line 58, ../sass/app.scss */
+.new-image body {
+  background-image: url(/images/background2.jpg);
+}
+
+/* line 62, ../sass/app.scss */
 #header {
   position: fixed;
 }
-/* line 60, ../sass/app.scss */
+/* line 64, ../sass/app.scss */
 #header h6 {
   text-align: right;
 }
 
-/* line 65, ../sass/app.scss */
+/* line 69, ../sass/app.scss */
 #wrapper {
   min-height: 700px;
   z-index: 100;
 }
 
-/* line 70, ../sass/app.scss */
+/* line 74, ../sass/app.scss */
 #top-row {
   padding-top: 10em;
 }
 
-/* line 74, ../sass/app.scss */
+/* line 78, ../sass/app.scss */
 #footer {
   border-top-style: solid;
   border-top-width: 1px;
 }
-/* line 77, ../sass/app.scss */
+/* line 81, ../sass/app.scss */
 #footer p {
   color: #777;
 }
