@@ -46,3 +46,30 @@
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
+body{
+  color: rgba(255,255,255,0.5);
+  position: relative;
+  background-attachment: fixed;
+  background-image: url(/images/background.jpg)
+}
+
+#header{
+  position: fixed;
+  h6{
+    text-align: right;
+  }
+}
+
+#wrapper{
+  min-height: 550px;
+  z-index: 100;
+}
+
+#top-row{
+  padding-top: 5em;
+}
+
+#footer{
+  border-top-style: solid;
+  border-top-width: 1px;
+}
